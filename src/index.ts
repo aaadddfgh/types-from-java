@@ -1,6 +1,4 @@
-import JavaParser = require("./parserJava1");
-
-
+import JavaParser from "./parserJava1";
 
 const parsejavaClass = JavaParser.parse;
 

@@ -1,5 +1,11 @@
 # types-from-java
-generate typescript type definion from java data class
+generate typescript type definion from java data class  
+can only generate one class in one time, can not parse `import`,  
+can parse Annotion and Method, but without any effect.
+
+npm: https://www.npmjs.com/package/types-from-java  
+online: [gitpage](https://aaadddfgh.github.io/types-from-java/)  
+
 
 ## useage
 
