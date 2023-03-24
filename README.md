@@ -4,7 +4,9 @@ generate typescript type definion from java data class
 ## useage
 
 ``` js 
-import getType from "types-from-java";
+const {getType} = require("types-from-java");
+//or es
+//import {getType} from "types-from-java";
 
 /*class MyClass{
 Interger var;
@@ -36,4 +38,5 @@ defualt map, you can change second parm of `getType` to overwrite or add new
 |String|	string|
 |Object|	any|
 
+peg grammar defined in parser fold.
 github: https://github.com/aaadddfgh/types-from-java
