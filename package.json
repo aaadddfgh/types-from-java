@@ -1,0 +1,29 @@
+{
+  "name": "types-from-java",
+  "version": "0.2.0",
+  "description": "generate typescript type definion from java data class",
+  "main": "./dist/index.js",
+  "scripts": {
+    
+    "bulid": "tsc && tsc -p tsconfig.es6.json"
+    
+  },
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/cjs/index.js"
+    
+  },
+  "keywords": [
+    "typescript",
+    "java",
+    "typescript-generator",
+    "json"
+  ],
+  "author": "aaadddfgh",
+  
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+  
+}
