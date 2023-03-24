@@ -1,7 +1,7 @@
 # types-from-java
 generate typescript type definion from java data class
 
-useage
+## useage
 
 ``` js 
 import getType from "types-from-java";
@@ -13,6 +13,7 @@ var typeString=getType("class MyClass{Interger var;}")
 /*type MyClass = {"var":number, }; */
 ```
 
+## map 
 defualt map, you can change second parm of `getType` to overwrite or add new
 | java | typescript |
 | --- | --- |
@@ -34,3 +35,5 @@ defualt map, you can change second parm of `getType` to overwrite or add new
 |Double|	number|
 |String|	string|
 |Object|	any|
+
+github: https://github.com/aaadddfgh/types-from-java
