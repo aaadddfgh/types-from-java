@@ -1,14 +1,13 @@
 {
-    "include": ["src/**/*"],
+    "include": ["src/index.ts"],
     "compilerOptions": {
         "target": "ES6",
         "module": "ES6",
-        "declaration": true,
-        "outDir": "./test/",
+        "outDir": "./build/",
         "strict": true,
         "allowJs": true,
-        
-        
+        "emitDeclarationOnly": true,
+
         
     }
 

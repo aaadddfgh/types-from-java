@@ -6,3 +6,4 @@ tsconfig.json
 dist/**
 .gitignore
 package.json
+build
