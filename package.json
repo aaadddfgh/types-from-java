@@ -1,17 +1,17 @@
 {
+  "private":true,
   "name": "types-from-java",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "generate typescript type definion from java data class",
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "browser": "./dist/index.umd.js",
   "scripts": {
-    
-    "bulid": "tsc && tsc -p tsconfig.es6.json"
-    
+    "bulid": "tsc && rollup -c"
   },
   "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/cjs/index.js"
-    
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
   },
   "keywords": [
     "typescript",
@@ -20,10 +20,13 @@
     "json"
   ],
   "author": "aaadddfgh",
-  
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.0.2"
+    "@types/node": "^18.15.7",
+    "typescript": "^5.0.2",
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.0"
   }
-  
+
 }

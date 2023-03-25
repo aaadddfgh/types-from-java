@@ -5,3 +5,4 @@ package**
 tsconfig.json
 dist/**
 .gitignore
+package.json
