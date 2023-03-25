@@ -1,4 +1,4 @@
-import * as pp from "../src/index"; 
+import * as pp from "../dist/index"; 
 
 /**
  * class MyClass{

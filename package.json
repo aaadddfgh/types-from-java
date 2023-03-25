@@ -1,7 +1,7 @@
 {
   "private":true,
   "name": "types-from-java",
-  "version": "0.2.1",
+  "version": "0.2.6",
   "description": "generate typescript type definion from java data class",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -28,5 +28,4 @@
     "@rollup/plugin-node-resolve": "^7.0.0",
     "rollup": "^1.29.0"
   }
-
 }
