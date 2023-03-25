@@ -17,7 +17,7 @@ const {getType} = require("types-from-java");
 /*class MyClass{
 Interger var;
 }*/
-var typeString=getType("class MyClass{Interger var;}")
+var typeString=getType("class MyClass{Integer var;}")
 /*type MyClass = {"var":number, }; */
 ```
 

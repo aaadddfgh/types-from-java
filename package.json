@@ -1,7 +1,7 @@
 {
   "private":true,
   "name": "types-from-java",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "generate typescript type definion from java data class",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -10,9 +10,14 @@
     "bulid": "tsc && rollup -c"
   },
   "exports": {
+    ".":{
     "import": "./dist/index.mjs",
-    "require": "./dist/index.cjs"
+    "require": "./dist/index.cjs",
+    "types": "./dist/index.d.ts"
+    }
   },
+  "type": "module",
+  "types": "dist/index.d.ts",
   "keywords": [
     "typescript",
     "java",
